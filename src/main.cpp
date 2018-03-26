@@ -1,7 +1,7 @@
 /* flash the led at a given rate */
 #include <mbed.h>
 
-DigitalOut led = DigitalOut(LED_RED);
+DigitalOut led(LED_RED);
 
 void flash_1Hz(void){
     const float period = 1;
